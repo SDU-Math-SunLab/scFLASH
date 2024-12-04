@@ -9,7 +9,7 @@
 
 
 ## News ##
-* Nov, 2024: scFLASH version 1.0.0 is launched.
+* Dec, 2024: scFLASH version 1.0.0 is launched.
 
 ## Python Dependencies
 `scFLASH` depends on the following Python packages:
