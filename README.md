@@ -44,7 +44,7 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --e
 ### Step3:
 Clone the scFLASH repository and install:
 ```{bash}
-git clone https://github.com/qingbinzhou/scFLASH
+git clone https://github.com/SDU-Math-SunLab/scFLASH
 cd scFLASH
 pip install .
 ```
