@@ -78,6 +78,6 @@ Please cite the following manuscript:
 ## License ##
 scFLASH is licensed under the GNU General Public License v3.0.
 
-Improvements and new features of scFLASH will be updated on a regular basis. Please post on the [GitHub issues page](https://github.com/qingbinzhou/scFLASH/issues) with any questions.
+Improvements and new features of scFLASH will be updated on a regular basis. Please post on the [GitHub issues page](https://github.com/SDU-Math-SunLab/scFLASH/issues) with any questions.
 
 
