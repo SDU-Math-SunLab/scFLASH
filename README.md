@@ -65,7 +65,7 @@ scflash_model.fit(batch_size=300, num_epochs=150, lr=None, mu0=0.001)
 adata_int = scflash_model.get_corrected_exp(input_dict)
 ```
 
-Please see the [tutorial.ipynb](https://github.com/qingbinzhou/scFLASH/blob/main/tutorial/tutorial.ipynb) for a comprehensive workflow on integrating datasets with scFLASH. This tutorial uses the Alzheimer’s Disease (AD) dataset as an example to demonstrate how scFLASH can be applied in real applications.
+Please see the [tutorial.ipynb](https://github.com/SDU-Math-SunLab/scFLASH/blob/main/tutorial/tutorial.ipynb) for a comprehensive workflow on integrating datasets with scFLASH. This tutorial uses the Alzheimer’s Disease (AD) dataset as an example to demonstrate how scFLASH can be applied in real applications.
 
 
 ## How to cite `scFLASH` ##
