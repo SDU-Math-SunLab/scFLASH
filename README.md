@@ -53,10 +53,10 @@ pip install .
 import scFLASH
 
 # prepare data source
-input_dict  = scFLASH.prepare_anndata(adata, batch_key="batch", condition_key="condition")
+input_dict = scFLASH.prepare_anndata(adata, batch_key="batch", condition_key="condition")
 
 # init a scFLASH model
-scflash_model  = scFLASH.Integrator(input_dict, lamda_batch=None, cond_factor_k = 0.5, device = 'cuda:0')
+scflash_model = scFLASH.Integrator(input_dict, lamda_batch=None, cond_factor_k=0.5, device='cuda:0')
 
 # run
 scflash_model.fit(batch_size=300, num_epochs=150, lr=None, mu0=0.001)
