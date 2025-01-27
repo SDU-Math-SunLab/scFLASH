@@ -134,7 +134,6 @@ class Integrator():
                 avg_epoch_loss = epoch_total_loss / len(data_loader)
             train_losses.append(avg_epoch_loss)
             
-
             progress.set_postfix_str(f"epoch: {epoch}/{num_epochs}, total_loss={avg_epoch_loss:.2f}, current_lr={current_lr:.6f}")
 
                  
@@ -169,14 +168,14 @@ class Integrator():
         
 
         p = pc[np.arange(pc.shape[0]), input_dict["condition_labels"]]
-        rej = np.where((1 - p) < self.cond_factor_k * (input_dict["num_conditions"] - 1) / input_dict["num_conditions"], 'Sensitive', 'Non-sensitive')
+        rej = np.where((1 - p) < self.cond_factor_k * (input_dict["num_conditions"] - 1) / input_dict["num_conditions"], 'Specific', 'Non-specific')
         rej = rej.reshape(input_dict["exp"].shape[0], 1)
 
         adata1 = sc.AnnData(x_0)
         adata1.obs = input_dict["meta"].copy() 
 
         adata1.obs['condition_output'] = p.tolist()
-        adata1.obs["sensitive"] = rej
+        adata1.obs["specific"] = rej
         
 
         adata1.obsm["Z_emb"] = Z
