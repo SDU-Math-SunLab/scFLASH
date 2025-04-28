@@ -149,7 +149,7 @@ class Integrator():
 
     
         
-    def get_corrected_exp(self, input_dict, **kws):
+    def get_corrected_exp(self, input_dict, batch_size=None, **kws):
         
         
         set_random_seed()
@@ -158,6 +158,7 @@ class Integrator():
         Z, Zu, Zc, x_0, pc = self.transform(
             exp_data=input_dict['exp'], 
             batch_labels=input_dict["batch_labels"], 
+            batch_size=batch_size,
             decode_batch_labels=b_1 * input_dict["max_batch"],
             device=self.device
             
