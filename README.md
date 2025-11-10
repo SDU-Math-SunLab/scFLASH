@@ -1,7 +1,7 @@
 # scFLASH: Flexible muLti-sample single-cell data integrAtion with phenotypic expreSsion Heterogeneity #
 
 ## Introduction ##
-`scFLASH` is a deep learning-based framework designed for integrating multi-batch, multi-condition (MBMC) single-cell sequencing datasets. By preserving biological and condition-specific signals while correcting technical noise, `scFLASH` provides a clearer understanding of complex single-cell data. The workflow of `scFLASH` is shown in the following Figure:
+`scFLASH` is a deep learning-based framework designed for integrating multi-batch, multi-condition (MBMC) single-cell sequencing datasets. By preserving biological and condition-specific signals while correcting technical noise, scFLASH provides a clearer understanding of complex single-cell data. The workflow of scFLASH is shown in the following Figure:
 
 <p align="center">
 <img src=Figure_Method.jpg width=700ptx>
