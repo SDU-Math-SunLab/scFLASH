@@ -67,11 +67,16 @@ adata_int = scflash_model.get_corrected_exp(input_dict)
 
 Please see the [tutorial.ipynb](https://github.com/SDU-Math-SunLab/scFLASH/blob/main/tutorial/tutorial.ipynb) for a comprehensive workflow on integrating datasets with scFLASH. This tutorial uses the Alzheimer’s Disease (AD) dataset as an example to demonstrate how scFLASH can be applied in real applications.
 
+## Supplementary Information
+
+The supplementary tables and additional data related to **scFLASH** are available at the following repository:
+
+[scFLASH Supplementary Repository](https://github.com/SDU-Math-SunLab/scFLASH-supplementary)
 
 ## How to cite `scFLASH` ##
 Please cite the following manuscript:
 
-> *Preserving biological variations in multi-source single-cell data integration with scFLASH*. 
+> *Effectively preserving biological variations in multi-batch and multi-condition single-cell data integration*. 
 <br />
 
 
