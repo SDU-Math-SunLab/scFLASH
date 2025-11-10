@@ -1,7 +1,7 @@
 # scFLASH: Flexible muLti-sample single-cell data integrAtion with phenotypic expreSsion Heterogeneity #
 
 ## Introduction ##
-`scFLASH` is a deep learning-based framework designed for integrating multi-batch, multi-condition (MBMC) single-cell sequencing datasets. By preserving biological and condition-specific signals while correcting technical noise, scFLASH provides a clearer understanding of complex single-cell data. The workflow of scFLASH is shown in the following Figure:
+`scFLASH` is a deep learning-based framework designed for integrating multi-batch, multi-condition (MBMC) single-cell sequencing datasets. By preserving biological and condition-specific signals while correcting technical noise, `scFLASH` provides a clearer understanding of complex single-cell data. The workflow of `scFLASH` is shown in the following Figure:
 
 <p align="center">
 <img src=Figure_Method.jpg width=700ptx>
@@ -25,7 +25,7 @@ scanpy >= 1.9.8
 
 
 ## How to install
-To install scFLASH, follow these steps:
+To install `scFLASH`, follow these steps:
 
 ### Step1:
 Create a new conda environment (recommended):
@@ -42,7 +42,7 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --e
 * For other CUDA versions or CPU-only installation: Visit [PyTorch’s official installation page](https://pytorch.org/get-started/locally/) and select the command that matches your setup.
 
 ### Step3:
-Clone the scFLASH repository and install:
+Clone the `scFLASH` repository and install:
 ```{bash}
 git clone https://github.com/SDU-Math-SunLab/scFLASH
 cd scFLASH
@@ -65,11 +65,11 @@ scflash_model.fit(batch_size=300, num_epochs=150, lr=None, mu0=0.001)
 adata_int = scflash_model.get_corrected_exp(input_dict)
 ```
 
-Please see the [tutorial.ipynb](https://github.com/SDU-Math-SunLab/scFLASH/blob/main/tutorial/tutorial.ipynb) for a comprehensive workflow on integrating datasets with scFLASH. This tutorial uses the Alzheimer’s Disease (AD) dataset as an example to demonstrate how scFLASH can be applied in real applications.
+Please see the [tutorial.ipynb](https://github.com/SDU-Math-SunLab/scFLASH/blob/main/tutorial/tutorial.ipynb) for a comprehensive workflow on integrating datasets with `scFLASH`. This tutorial uses the Alzheimer’s Disease (AD) dataset as an example to demonstrate how `scFLASH` can be applied in real applications.
 
 ## Supplementary Information
 
-The supplementary tables and additional data related to scFLASH are available at the following repository:
+The supplementary tables and additional data related to `scFLASH` are available at the following repository:
 
 [scFLASH Supplementary Repository](https://github.com/SDU-Math-SunLab/scFLASH-supplementary)
 
