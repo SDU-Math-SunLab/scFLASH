@@ -69,7 +69,7 @@ Please see the [tutorial.ipynb](https://github.com/SDU-Math-SunLab/scFLASH/blob/
 
 ## Supplementary Information
 
-The supplementary tables and additional data related to **scFLASH** are available at the following repository:
+The supplementary tables and additional data related to scFLASH are available at the following repository:
 
 [scFLASH Supplementary Repository](https://github.com/SDU-Math-SunLab/scFLASH-supplementary)
 
