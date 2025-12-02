@@ -76,7 +76,7 @@ The supplementary tables and additional data related to scFLASH are available at
 ## How to cite `scFLASH` ##
 Please cite the following manuscript:
 
-Qingbin Zhou, Tao Ren, Fan Yuan, Jiating Yu, Jiacheng Leng, Jiahao Song, Duanchen Sun, and Ling-Yun Wu. "Effectively Preserving Biological Variations in Multi-Batch and Multi-Condition Single-Cell Data Integration". (2025). CSIAM Transactions on Life Sciences.<br>
+> Qingbin Zhou, Tao Ren, Fan Yuan, Jiating Yu, Jiacheng Leng, Jiahao Song, Duanchen Sun, and Ling-Yun Wu. "Effectively Preserving Biological Variations in Multi-Batch and Multi-Condition Single-Cell Data Integration". (2025). CSIAM Transactions on Life Sciences.<br>
 https://doi.org/10.4208/csiam-ls.SO-2025-0025
 
 ## License ##
