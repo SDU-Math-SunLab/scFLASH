@@ -76,9 +76,8 @@ The supplementary tables and additional data related to scFLASH are available at
 ## How to cite `scFLASH` ##
 Please cite the following manuscript:
 
-> “Effectively Preserving Biological Variations in Multi-Batch and Multi-Condition Single-Cell Data Integration”, CSIAM-LS, Dec. 2025, doi: 10.4208/csiam-ls.SO-2025-0025. 
-<br />
-
+Qingbin Zhou, Tao Ren, Fan Yuan, Jiating Yu, Jiacheng Leng, Jiahao Song, Duanchen Sun, and Ling-Yun Wu. "Effectively Preserving Biological Variations in Multi-Batch and Multi-Condition Single-Cell Data Integration". (2025). CSIAM Transactions on Life Sciences.<br>
+[https://doi.org/10.1002/advs.202518277](https://doi.org/10.4208/csiam-ls.SO-2025-0025)
 
 ## License ##
 scFLASH is licensed under the GNU General Public License v3.0.
