@@ -76,7 +76,7 @@ The supplementary tables and additional data related to scFLASH are available at
 ## How to cite `scFLASH` ##
 Please cite the following manuscript:
 
-> *Effectively preserving biological variations in multi-batch and multi-condition single-cell data integration*. 
+> “Effectively Preserving Biological Variations in Multi-Batch and Multi-Condition Single-Cell Data Integration”, CSIAM-LS, Dec. 2025, doi: 10.4208/csiam-ls.SO-2025-0025. 
 <br />
 
 
